@@ -1,0 +1,76 @@
+<scenefile>
+    <globaldata>
+        <diffusecoeff v="0.5"/>
+        <specularcoeff v="0.5"/>
+        <ambientcoeff v="0.5"/>
+    </globaldata>
+
+    <lightdata>
+        <id v="0"/>
+        <color r="1" g="1" b="1"/>
+        <position x="4" y="4" z="4"/>
+    </lightdata>
+
+    <lightdata>
+        <id v="1"/>
+        <color r="1" g="1" b="1"/>
+        <position x="-3" y="3" z="3"/>
+    </lightdata>
+
+    <lightdata>
+        <id v="2"/>
+        <color r="1" g="1" b="1"/>
+        <position x="-3" y="3" z="-3"/>
+    </lightdata>
+
+    <lightdata>
+        <id v="3"/>
+        <color r="1" g="1" b="1"/>
+        <position x="3" y="3" z="-3"/>
+    </lightdata>
+
+    <cameradata>
+        <pos x="2" y="2" z="2"/>
+        <focus x="0" y="0" z="0"/>
+        <up x="0" y="1" z="0"/>
+        <heightangle v="45"/>
+    </cameradata>
+
+    <object type="tree" name="root">
+            <transblock>
+                <translate x="-1.605" y="0.0568883" z="0.670333"/>
+                <scale x="1" y="1" z="1"/>
+                <object type="primitive" name="cube">
+                    <diffuse r="0.458824" g="1" b="1"/>
+                </object>
+            </transblock>
+            <transblock>
+                <translate x="0.0310805" y="0.225935" z="0.0372841"/>
+                <scale x="1" y="0.8" z="1"/>
+                <object type="primitive" name="sphere">
+                    <diffuse r="0.305882" g="1" b="1"/>
+                </object>
+            </transblock>
+            <transblock>
+                <translate x="1.53846" y="0.89371" z="-1.29612"/>
+                <scale x="1.8" y="1.04" z="1"/>
+                <object type="primitive" name="cube">
+                    <diffuse r="1" g="0.407843" b="1"/>
+                </object>
+            </transblock>
+            <transblock>
+                <translate x="-0.947216" y="0.592474" z="-0.272726"/>
+                <scale x="0.3" y="1.2" z="1"/>
+                <object type="primitive" name="cube">
+                    <diffuse r="0.172549" g="0.396078" b="0.254902"/>
+                </object>
+            </transblock>
+            <transblock>
+                <translate x="0.156884" y="0.638298" z="-1.42683"/>
+                <scale x="0.36" y="1.44" z="1.2"/>
+                <object type="primitive" name="cube">
+                    <diffuse r="0.305882" g="0.32549" b="0.662745"/>
+                </object>
+            </transblock>
+    </object>
+</scenefile>
