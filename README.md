@@ -34,4 +34,4 @@ Wireframe and Filled Rendering Modes: Switch between wireframe and filled render
 
 Here's a walkthrough of this application:
 
-[Local GIF](./demo.gif)
+![demo](./demo.gif)
